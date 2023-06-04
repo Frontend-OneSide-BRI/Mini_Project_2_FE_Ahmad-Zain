@@ -1,0 +1,14 @@
+.tab-container button.active {
+  background-color: #374151;
+  color: #ffffff;
+}
+
+.tab-container button:not(.active):hover {
+  background-color: #e5e7eb;
+}
+
+.tab-container button {
+  font-weight: bold;
+  padding-inline: 2rem;
+  padding-block: 0.5rem;
+}
